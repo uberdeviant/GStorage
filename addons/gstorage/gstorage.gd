@@ -1,4 +1,5 @@
-extends Node
+@tool
+extends EditorPlugin
 
 class_name GStorage
 
@@ -51,3 +52,9 @@ func load_data():
 			var content = file.get_as_text()
 			data = JSON.parse_string(content) if content else {}
 			file.close()
+
+func _enter_tree():
+	pass
+
+func _exit_tree():
+	pass

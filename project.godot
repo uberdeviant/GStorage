@@ -13,6 +13,10 @@ config_version=5
 config/name="GStorage"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/gstorage/plugin.cfg")
+
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
