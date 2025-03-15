@@ -1,0 +1,29 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Godot-specific files
+.import/
+export_presets.cfg
+*.import
+*.remap
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor backup files
+*.tmp
+*.bak
+*.swp
+*.swo
+*.swn
+
+# Compiled files (if using GDExtension)
+*.dll
+*.exe
+*.so
+*.dylib
+
+# Godot plugin metadata (if using custom plugin settings)
+addons/*/.gdignore
