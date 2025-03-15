@@ -22,7 +22,7 @@ storage.set_value("music_volume", 0.8)
 storage.set_value("username", "Player123")
 
 # Read values
-var volume = storage.get_value("music_volume", 1.0)
+var volume = storage.get_value("music_volume", 1.0) # where 1.0 is the default value
 var username = storage.get_value("username", "Guest")
 
 # Remove values
