@@ -7,7 +7,7 @@
 ✅ Easy API with per-container initialization  
 
 ## 📌 Installation
-1. **Download via Godot Asset Library** (coming soon)
+1. **Download via Godot Asset Library**
 2. **Or install manually:**
    - Clone this repository or download it as a ZIP.
    - Move the `addons/gstorage/` folder to your Godot project.
